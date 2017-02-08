@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41AF39EF1E4AE62600BFD4EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF39EE1E4AE62600BFD4EB /* main.m */; };
+		41AF39F21E4AE62600BFD4EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF39F11E4AE62600BFD4EB /* AppDelegate.m */; };
+		41AF39F51E4AE62600BFD4EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF39F41E4AE62600BFD4EB /* ViewController.m */; };
+		41AF39F81E4AE62600BFD4EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41AF39F61E4AE62600BFD4EB /* Main.storyboard */; };
+		41AF39FA1E4AE62600BFD4EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AF39F91E4AE62600BFD4EB /* Assets.xcassets */; };
+		41AF39FD1E4AE62600BFD4EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41AF39FB1E4AE62600BFD4EB /* LaunchScreen.storyboard */; };
+		41AF3A081E4AE62600BFD4EB /* ReactiveCocoa__MVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A071E4AE62600BFD4EB /* ReactiveCocoa__MVVMTests.m */; };
+		41AF3A131E4AE62600BFD4EB /* ReactiveCocoa__MVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A121E4AE62600BFD4EB /* ReactiveCocoa__MVVMUITests.m */; };
+		41AF3A271E4AEF1400BFD4EB /* MBProgressHUD+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A231E4AEF1400BFD4EB /* MBProgressHUD+XMG.m */; };
+		41AF3A281E4AEF1400BFD4EB /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 41AF3A241E4AEF1400BFD4EB /* MBProgressHUD.bundle */; };
+		41AF3A291E4AEF1400BFD4EB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A261E4AEF1400BFD4EB /* MBProgressHUD.m */; };
+		41AF3A2D1E4AF14100BFD4EB /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A2C1E4AF14100BFD4EB /* LoginViewModel.m */; };
+		41AF3A311E4AFCA100BFD4EB /* netWorkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A301E4AFCA100BFD4EB /* netWorkingViewController.m */; };
+		41AF3A461E4AFE0C00BFD4EB /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A341E4AFE0C00BFD4EB /* AFHTTPRequestOperation.m */; };
+		41AF3A471E4AFE0C00BFD4EB /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A361E4AFE0C00BFD4EB /* AFHTTPRequestOperationManager.m */; };
+		41AF3A481E4AFE0C00BFD4EB /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A381E4AFE0C00BFD4EB /* AFHTTPSessionManager.m */; };
+		41AF3A491E4AFE0C00BFD4EB /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A3B1E4AFE0C00BFD4EB /* AFNetworkReachabilityManager.m */; };
+		41AF3A4A1E4AFE0C00BFD4EB /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A3D1E4AFE0C00BFD4EB /* AFSecurityPolicy.m */; };
+		41AF3A4B1E4AFE0C00BFD4EB /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A3F1E4AFE0C00BFD4EB /* AFURLConnectionOperation.m */; };
+		41AF3A4C1E4AFE0C00BFD4EB /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A411E4AFE0C00BFD4EB /* AFURLRequestSerialization.m */; };
+		41AF3A4D1E4AFE0C00BFD4EB /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A431E4AFE0C00BFD4EB /* AFURLResponseSerialization.m */; };
+		41AF3A4E1E4AFE0C00BFD4EB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A451E4AFE0C00BFD4EB /* AFURLSessionManager.m */; };
+		41AF3A511E4B008500BFD4EB /* RequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A501E4B008500BFD4EB /* RequestViewModel.m */; };
+		41AF3A9E1E4B07AD00BFD4EB /* requestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3A9D1E4B07AD00BFD4EB /* requestModel.m */; };
+		41AF3AB81E4B085400BFD4EB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 41AF3AA01E4B085400BFD4EB /* LICENSE */; };
+		41AF3AB91E4B085400BFD4EB /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3AA41E4B085400BFD4EB /* MJExtensionConst.m */; };
+		41AF3ABA1E4B085400BFD4EB /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3AA61E4B085400BFD4EB /* MJFoundation.m */; };
+		41AF3ABB1E4B085400BFD4EB /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3AA81E4B085400BFD4EB /* MJProperty.m */; };
+		41AF3ABC1E4B085400BFD4EB /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3AAA1E4B085400BFD4EB /* MJPropertyKey.m */; };
+		41AF3ABD1E4B085400BFD4EB /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3AAC1E4B085400BFD4EB /* MJPropertyType.m */; };
+		41AF3ABE1E4B085400BFD4EB /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3AAE1E4B085400BFD4EB /* NSObject+MJClass.m */; };
+		41AF3ABF1E4B085400BFD4EB /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3AB01E4B085400BFD4EB /* NSObject+MJCoding.m */; };
+		41AF3AC01E4B085400BFD4EB /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3AB21E4B085400BFD4EB /* NSObject+MJKeyValue.m */; };
+		41AF3AC11E4B085400BFD4EB /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3AB41E4B085400BFD4EB /* NSObject+MJProperty.m */; };
+		41AF3AC21E4B085400BFD4EB /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3AB61E4B085400BFD4EB /* NSString+MJExtension.m */; };
+		41AF3AC31E4B085400BFD4EB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 41AF3AB71E4B085400BFD4EB /* README.md */; };
+		5EFA20AD02F3A9331032967E /* Pods_ReactiveCocoa__MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1DEACA71A371EC56B37FD /* Pods_ReactiveCocoa__MVVM.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41AF3A041E4AE62600BFD4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41AF39E21E4AE62600BFD4EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AF39E91E4AE62600BFD4EB;
+			remoteInfo = "ReactiveCocoa&&MVVM";
+		};
+		41AF3A0F1E4AE62600BFD4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41AF39E21E4AE62600BFD4EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AF39E91E4AE62600BFD4EB;
+			remoteInfo = "ReactiveCocoa&&MVVM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CC1DEACA71A371EC56B37FD /* Pods_ReactiveCocoa__MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveCocoa__MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EEB5A52A1DC6F6F4B3479C /* Pods-ReactiveCocoa&&MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa&&MVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa&&MVVM/Pods-ReactiveCocoa&&MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		41AF39EA1E4AE62600BFD4EB /* ReactiveCocoa&&MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactiveCocoa&&MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AF39EE1E4AE62600BFD4EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41AF39F01E4AE62600BFD4EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41AF39F11E4AE62600BFD4EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41AF39F31E4AE62600BFD4EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41AF39F41E4AE62600BFD4EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41AF39F71E4AE62600BFD4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41AF39F91E4AE62600BFD4EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41AF39FC1E4AE62600BFD4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41AF39FE1E4AE62600BFD4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AF3A031E4AE62600BFD4EB /* ReactiveCocoa&&MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveCocoa&&MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AF3A071E4AE62600BFD4EB /* ReactiveCocoa__MVVMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoa__MVVMTests.m; sourceTree = "<group>"; };
+		41AF3A091E4AE62600BFD4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AF3A0E1E4AE62600BFD4EB /* ReactiveCocoa&&MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveCocoa&&MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AF3A121E4AE62600BFD4EB /* ReactiveCocoa__MVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoa__MVVMUITests.m; sourceTree = "<group>"; };
+		41AF3A141E4AE62600BFD4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AF3A201E4AE9A400BFD4EB /* GlobeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobeHeader.h; sourceTree = "<group>"; };
+		41AF3A221E4AEF1400BFD4EB /* MBProgressHUD+XMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XMG.h"; sourceTree = "<group>"; };
+		41AF3A231E4AEF1400BFD4EB /* MBProgressHUD+XMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XMG.m"; sourceTree = "<group>"; };
+		41AF3A241E4AEF1400BFD4EB /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		41AF3A251E4AEF1400BFD4EB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		41AF3A261E4AEF1400BFD4EB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		41AF3A2B1E4AF14100BFD4EB /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		41AF3A2C1E4AF14100BFD4EB /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		41AF3A2F1E4AFCA100BFD4EB /* netWorkingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netWorkingViewController.h; sourceTree = "<group>"; };
+		41AF3A301E4AFCA100BFD4EB /* netWorkingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = netWorkingViewController.m; sourceTree = "<group>"; };
+		41AF3A331E4AFE0C00BFD4EB /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		41AF3A341E4AFE0C00BFD4EB /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		41AF3A351E4AFE0C00BFD4EB /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		41AF3A361E4AFE0C00BFD4EB /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		41AF3A371E4AFE0C00BFD4EB /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		41AF3A381E4AFE0C00BFD4EB /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		41AF3A391E4AFE0C00BFD4EB /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		41AF3A3A1E4AFE0C00BFD4EB /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		41AF3A3B1E4AFE0C00BFD4EB /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		41AF3A3C1E4AFE0C00BFD4EB /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		41AF3A3D1E4AFE0C00BFD4EB /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		41AF3A3E1E4AFE0C00BFD4EB /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		41AF3A3F1E4AFE0C00BFD4EB /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		41AF3A401E4AFE0C00BFD4EB /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		41AF3A411E4AFE0C00BFD4EB /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		41AF3A421E4AFE0C00BFD4EB /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		41AF3A431E4AFE0C00BFD4EB /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		41AF3A441E4AFE0C00BFD4EB /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		41AF3A451E4AFE0C00BFD4EB /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		41AF3A4F1E4B008500BFD4EB /* RequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewModel.h; sourceTree = "<group>"; };
+		41AF3A501E4B008500BFD4EB /* RequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewModel.m; sourceTree = "<group>"; };
+		41AF3A9C1E4B07AD00BFD4EB /* requestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = requestModel.h; sourceTree = "<group>"; };
+		41AF3A9D1E4B07AD00BFD4EB /* requestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = requestModel.m; sourceTree = "<group>"; };
+		41AF3AA01E4B085400BFD4EB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		41AF3AA21E4B085400BFD4EB /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		41AF3AA31E4B085400BFD4EB /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		41AF3AA41E4B085400BFD4EB /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		41AF3AA51E4B085400BFD4EB /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		41AF3AA61E4B085400BFD4EB /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		41AF3AA71E4B085400BFD4EB /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		41AF3AA81E4B085400BFD4EB /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		41AF3AA91E4B085400BFD4EB /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		41AF3AAA1E4B085400BFD4EB /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		41AF3AAB1E4B085400BFD4EB /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		41AF3AAC1E4B085400BFD4EB /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		41AF3AAD1E4B085400BFD4EB /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		41AF3AAE1E4B085400BFD4EB /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		41AF3AAF1E4B085400BFD4EB /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		41AF3AB01E4B085400BFD4EB /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		41AF3AB11E4B085400BFD4EB /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		41AF3AB21E4B085400BFD4EB /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		41AF3AB31E4B085400BFD4EB /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		41AF3AB41E4B085400BFD4EB /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		41AF3AB51E4B085400BFD4EB /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		41AF3AB61E4B085400BFD4EB /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		41AF3AB71E4B085400BFD4EB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		732266769921342ABEFD6D1F /* Pods-ReactiveCocoa&&MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa&&MVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa&&MVVM/Pods-ReactiveCocoa&&MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41AF39E71E4AE62600BFD4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFA20AD02F3A9331032967E /* Pods_ReactiveCocoa__MVVM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AF3A001E4AE62600BFD4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AF3A0B1E4AE62600BFD4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C43AD0F2B4A53502BC646E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				732266769921342ABEFD6D1F /* Pods-ReactiveCocoa&&MVVM.debug.xcconfig */,
+				15EEB5A52A1DC6F6F4B3479C /* Pods-ReactiveCocoa&&MVVM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		41AF39E11E4AE62600BFD4EB = {
+			isa = PBXGroup;
+			children = (
+				41AF39EC1E4AE62600BFD4EB /* ReactiveCocoa&&MVVM */,
+				41AF3A061E4AE62600BFD4EB /* ReactiveCocoa&&MVVMTests */,
+				41AF3A111E4AE62600BFD4EB /* ReactiveCocoa&&MVVMUITests */,
+				41AF39EB1E4AE62600BFD4EB /* Products */,
+				0C43AD0F2B4A53502BC646E9 /* Pods */,
+				A03CA03B698E83E6C48784D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41AF39EB1E4AE62600BFD4EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41AF39EA1E4AE62600BFD4EB /* ReactiveCocoa&&MVVM.app */,
+				41AF3A031E4AE62600BFD4EB /* ReactiveCocoa&&MVVMTests.xctest */,
+				41AF3A0E1E4AE62600BFD4EB /* ReactiveCocoa&&MVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41AF39EC1E4AE62600BFD4EB /* ReactiveCocoa&&MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				41AF3A2E1E4AFC8100BFD4EB /* netWorking */,
+				41AF3A2A1E4AF12B00BFD4EB /* VM */,
+				41AF39F01E4AE62600BFD4EB /* AppDelegate.h */,
+				41AF39F11E4AE62600BFD4EB /* AppDelegate.m */,
+				41AF39F31E4AE62600BFD4EB /* ViewController.h */,
+				41AF39F41E4AE62600BFD4EB /* ViewController.m */,
+				41AF39F61E4AE62600BFD4EB /* Main.storyboard */,
+				41AF39F91E4AE62600BFD4EB /* Assets.xcassets */,
+				41AF39FB1E4AE62600BFD4EB /* LaunchScreen.storyboard */,
+				41AF39FE1E4AE62600BFD4EB /* Info.plist */,
+				41AF39ED1E4AE62600BFD4EB /* Supporting Files */,
+			);
+			path = "ReactiveCocoa&&MVVM";
+			sourceTree = "<group>";
+		};
+		41AF39ED1E4AE62600BFD4EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41AF3A9F1E4B085400BFD4EB /* MJExtension */,
+				41AF3A321E4AFE0C00BFD4EB /* AFNetworking */,
+				41AF3A211E4AEF1400BFD4EB /* MBProgressHUD */,
+				41AF39EE1E4AE62600BFD4EB /* main.m */,
+				41AF3A201E4AE9A400BFD4EB /* GlobeHeader.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41AF3A061E4AE62600BFD4EB /* ReactiveCocoa&&MVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				41AF3A071E4AE62600BFD4EB /* ReactiveCocoa__MVVMTests.m */,
+				41AF3A091E4AE62600BFD4EB /* Info.plist */,
+			);
+			path = "ReactiveCocoa&&MVVMTests";
+			sourceTree = "<group>";
+		};
+		41AF3A111E4AE62600BFD4EB /* ReactiveCocoa&&MVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41AF3A121E4AE62600BFD4EB /* ReactiveCocoa__MVVMUITests.m */,
+				41AF3A141E4AE62600BFD4EB /* Info.plist */,
+			);
+			path = "ReactiveCocoa&&MVVMUITests";
+			sourceTree = "<group>";
+		};
+		41AF3A211E4AEF1400BFD4EB /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				41AF3A221E4AEF1400BFD4EB /* MBProgressHUD+XMG.h */,
+				41AF3A231E4AEF1400BFD4EB /* MBProgressHUD+XMG.m */,
+				41AF3A241E4AEF1400BFD4EB /* MBProgressHUD.bundle */,
+				41AF3A251E4AEF1400BFD4EB /* MBProgressHUD.h */,
+				41AF3A261E4AEF1400BFD4EB /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		41AF3A2A1E4AF12B00BFD4EB /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				41AF3A2B1E4AF14100BFD4EB /* LoginViewModel.h */,
+				41AF3A2C1E4AF14100BFD4EB /* LoginViewModel.m */,
+			);
+			name = VM;
+			sourceTree = "<group>";
+		};
+		41AF3A2E1E4AFC8100BFD4EB /* netWorking */ = {
+			isa = PBXGroup;
+			children = (
+				41AF3A9B1E4B07A300BFD4EB /* M */,
+				41AF3A521E4B008B00BFD4EB /* VM */,
+				41AF3A2F1E4AFCA100BFD4EB /* netWorkingViewController.h */,
+				41AF3A301E4AFCA100BFD4EB /* netWorkingViewController.m */,
+			);
+			name = netWorking;
+			sourceTree = "<group>";
+		};
+		41AF3A321E4AFE0C00BFD4EB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				41AF3A331E4AFE0C00BFD4EB /* AFHTTPRequestOperation.h */,
+				41AF3A341E4AFE0C00BFD4EB /* AFHTTPRequestOperation.m */,
+				41AF3A351E4AFE0C00BFD4EB /* AFHTTPRequestOperationManager.h */,
+				41AF3A361E4AFE0C00BFD4EB /* AFHTTPRequestOperationManager.m */,
+				41AF3A371E4AFE0C00BFD4EB /* AFHTTPSessionManager.h */,
+				41AF3A381E4AFE0C00BFD4EB /* AFHTTPSessionManager.m */,
+				41AF3A391E4AFE0C00BFD4EB /* AFNetworking.h */,
+				41AF3A3A1E4AFE0C00BFD4EB /* AFNetworkReachabilityManager.h */,
+				41AF3A3B1E4AFE0C00BFD4EB /* AFNetworkReachabilityManager.m */,
+				41AF3A3C1E4AFE0C00BFD4EB /* AFSecurityPolicy.h */,
+				41AF3A3D1E4AFE0C00BFD4EB /* AFSecurityPolicy.m */,
+				41AF3A3E1E4AFE0C00BFD4EB /* AFURLConnectionOperation.h */,
+				41AF3A3F1E4AFE0C00BFD4EB /* AFURLConnectionOperation.m */,
+				41AF3A401E4AFE0C00BFD4EB /* AFURLRequestSerialization.h */,
+				41AF3A411E4AFE0C00BFD4EB /* AFURLRequestSerialization.m */,
+				41AF3A421E4AFE0C00BFD4EB /* AFURLResponseSerialization.h */,
+				41AF3A431E4AFE0C00BFD4EB /* AFURLResponseSerialization.m */,
+				41AF3A441E4AFE0C00BFD4EB /* AFURLSessionManager.h */,
+				41AF3A451E4AFE0C00BFD4EB /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		41AF3A521E4B008B00BFD4EB /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				41AF3A4F1E4B008500BFD4EB /* RequestViewModel.h */,
+				41AF3A501E4B008500BFD4EB /* RequestViewModel.m */,
+			);
+			name = VM;
+			sourceTree = "<group>";
+		};
+		41AF3A9B1E4B07A300BFD4EB /* M */ = {
+			isa = PBXGroup;
+			children = (
+				41AF3A9C1E4B07AD00BFD4EB /* requestModel.h */,
+				41AF3A9D1E4B07AD00BFD4EB /* requestModel.m */,
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		41AF3A9F1E4B085400BFD4EB /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				41AF3AA01E4B085400BFD4EB /* LICENSE */,
+				41AF3AA11E4B085400BFD4EB /* MJExtension */,
+				41AF3AB71E4B085400BFD4EB /* README.md */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		41AF3AA11E4B085400BFD4EB /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				41AF3AA21E4B085400BFD4EB /* MJExtension.h */,
+				41AF3AA31E4B085400BFD4EB /* MJExtensionConst.h */,
+				41AF3AA41E4B085400BFD4EB /* MJExtensionConst.m */,
+				41AF3AA51E4B085400BFD4EB /* MJFoundation.h */,
+				41AF3AA61E4B085400BFD4EB /* MJFoundation.m */,
+				41AF3AA71E4B085400BFD4EB /* MJProperty.h */,
+				41AF3AA81E4B085400BFD4EB /* MJProperty.m */,
+				41AF3AA91E4B085400BFD4EB /* MJPropertyKey.h */,
+				41AF3AAA1E4B085400BFD4EB /* MJPropertyKey.m */,
+				41AF3AAB1E4B085400BFD4EB /* MJPropertyType.h */,
+				41AF3AAC1E4B085400BFD4EB /* MJPropertyType.m */,
+				41AF3AAD1E4B085400BFD4EB /* NSObject+MJClass.h */,
+				41AF3AAE1E4B085400BFD4EB /* NSObject+MJClass.m */,
+				41AF3AAF1E4B085400BFD4EB /* NSObject+MJCoding.h */,
+				41AF3AB01E4B085400BFD4EB /* NSObject+MJCoding.m */,
+				41AF3AB11E4B085400BFD4EB /* NSObject+MJKeyValue.h */,
+				41AF3AB21E4B085400BFD4EB /* NSObject+MJKeyValue.m */,
+				41AF3AB31E4B085400BFD4EB /* NSObject+MJProperty.h */,
+				41AF3AB41E4B085400BFD4EB /* NSObject+MJProperty.m */,
+				41AF3AB51E4B085400BFD4EB /* NSString+MJExtension.h */,
+				41AF3AB61E4B085400BFD4EB /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		A03CA03B698E83E6C48784D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CC1DEACA71A371EC56B37FD /* Pods_ReactiveCocoa__MVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41AF39E91E4AE62600BFD4EB /* ReactiveCocoa&&MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AF3A171E4AE62600BFD4EB /* Build configuration list for PBXNativeTarget "ReactiveCocoa&&MVVM" */;
+			buildPhases = (
+				C524D65E91C6B673E766BA06 /* [CP] Check Pods Manifest.lock */,
+				41AF39E61E4AE62600BFD4EB /* Sources */,
+				41AF39E71E4AE62600BFD4EB /* Frameworks */,
+				41AF39E81E4AE62600BFD4EB /* Resources */,
+				CF844A5E2287998378DD9B42 /* [CP] Embed Pods Frameworks */,
+				825C50D040A40179E7A3C64C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReactiveCocoa&&MVVM";
+			productName = "ReactiveCocoa&&MVVM";
+			productReference = 41AF39EA1E4AE62600BFD4EB /* ReactiveCocoa&&MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41AF3A021E4AE62600BFD4EB /* ReactiveCocoa&&MVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AF3A1A1E4AE62600BFD4EB /* Build configuration list for PBXNativeTarget "ReactiveCocoa&&MVVMTests" */;
+			buildPhases = (
+				41AF39FF1E4AE62600BFD4EB /* Sources */,
+				41AF3A001E4AE62600BFD4EB /* Frameworks */,
+				41AF3A011E4AE62600BFD4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AF3A051E4AE62600BFD4EB /* PBXTargetDependency */,
+			);
+			name = "ReactiveCocoa&&MVVMTests";
+			productName = "ReactiveCocoa&&MVVMTests";
+			productReference = 41AF3A031E4AE62600BFD4EB /* ReactiveCocoa&&MVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41AF3A0D1E4AE62600BFD4EB /* ReactiveCocoa&&MVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AF3A1D1E4AE62600BFD4EB /* Build configuration list for PBXNativeTarget "ReactiveCocoa&&MVVMUITests" */;
+			buildPhases = (
+				41AF3A0A1E4AE62600BFD4EB /* Sources */,
+				41AF3A0B1E4AE62600BFD4EB /* Frameworks */,
+				41AF3A0C1E4AE62600BFD4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AF3A101E4AE62600BFD4EB /* PBXTargetDependency */,
+			);
+			name = "ReactiveCocoa&&MVVMUITests";
+			productName = "ReactiveCocoa&&MVVMUITests";
+			productReference = 41AF3A0E1E4AE62600BFD4EB /* ReactiveCocoa&&MVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41AF39E21E4AE62600BFD4EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.gzkiwi.yinpubaoblue;
+				TargetAttributes = {
+					41AF39E91E4AE62600BFD4EB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					41AF3A021E4AE62600BFD4EB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 41AF39E91E4AE62600BFD4EB;
+					};
+					41AF3A0D1E4AE62600BFD4EB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 41AF39E91E4AE62600BFD4EB;
+					};
+				};
+			};
+			buildConfigurationList = 41AF39E51E4AE62600BFD4EB /* Build configuration list for PBXProject "ReactiveCocoa&&MVVM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41AF39E11E4AE62600BFD4EB;
+			productRefGroup = 41AF39EB1E4AE62600BFD4EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41AF39E91E4AE62600BFD4EB /* ReactiveCocoa&&MVVM */,
+				41AF3A021E4AE62600BFD4EB /* ReactiveCocoa&&MVVMTests */,
+				41AF3A0D1E4AE62600BFD4EB /* ReactiveCocoa&&MVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41AF39E81E4AE62600BFD4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AF39FD1E4AE62600BFD4EB /* LaunchScreen.storyboard in Resources */,
+				41AF3A281E4AEF1400BFD4EB /* MBProgressHUD.bundle in Resources */,
+				41AF39FA1E4AE62600BFD4EB /* Assets.xcassets in Resources */,
+				41AF39F81E4AE62600BFD4EB /* Main.storyboard in Resources */,
+				41AF3AB81E4B085400BFD4EB /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AF3A011E4AE62600BFD4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AF3A0C1E4AE62600BFD4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		825C50D040A40179E7A3C64C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoa&&MVVM/Pods-ReactiveCocoa&&MVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C524D65E91C6B673E766BA06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF844A5E2287998378DD9B42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoa&&MVVM/Pods-ReactiveCocoa&&MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41AF39E61E4AE62600BFD4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AF3A4B1E4AFE0C00BFD4EB /* AFURLConnectionOperation.m in Sources */,
+				41AF3ABC1E4B085400BFD4EB /* MJPropertyKey.m in Sources */,
+				41AF3AC01E4B085400BFD4EB /* NSObject+MJKeyValue.m in Sources */,
+				41AF39F51E4AE62600BFD4EB /* ViewController.m in Sources */,
+				41AF3A311E4AFCA100BFD4EB /* netWorkingViewController.m in Sources */,
+				41AF3ABA1E4B085400BFD4EB /* MJFoundation.m in Sources */,
+				41AF39F21E4AE62600BFD4EB /* AppDelegate.m in Sources */,
+				41AF3A4D1E4AFE0C00BFD4EB /* AFURLResponseSerialization.m in Sources */,
+				41AF3A2D1E4AF14100BFD4EB /* LoginViewModel.m in Sources */,
+				41AF3A511E4B008500BFD4EB /* RequestViewModel.m in Sources */,
+				41AF3A4C1E4AFE0C00BFD4EB /* AFURLRequestSerialization.m in Sources */,
+				41AF3A4A1E4AFE0C00BFD4EB /* AFSecurityPolicy.m in Sources */,
+				41AF3A461E4AFE0C00BFD4EB /* AFHTTPRequestOperation.m in Sources */,
+				41AF3AC31E4B085400BFD4EB /* README.md in Sources */,
+				41AF3AB91E4B085400BFD4EB /* MJExtensionConst.m in Sources */,
+				41AF3A4E1E4AFE0C00BFD4EB /* AFURLSessionManager.m in Sources */,
+				41AF3ABF1E4B085400BFD4EB /* NSObject+MJCoding.m in Sources */,
+				41AF3A291E4AEF1400BFD4EB /* MBProgressHUD.m in Sources */,
+				41AF3A271E4AEF1400BFD4EB /* MBProgressHUD+XMG.m in Sources */,
+				41AF3A481E4AFE0C00BFD4EB /* AFHTTPSessionManager.m in Sources */,
+				41AF3AC11E4B085400BFD4EB /* NSObject+MJProperty.m in Sources */,
+				41AF3ABB1E4B085400BFD4EB /* MJProperty.m in Sources */,
+				41AF3A9E1E4B07AD00BFD4EB /* requestModel.m in Sources */,
+				41AF39EF1E4AE62600BFD4EB /* main.m in Sources */,
+				41AF3A491E4AFE0C00BFD4EB /* AFNetworkReachabilityManager.m in Sources */,
+				41AF3AC21E4B085400BFD4EB /* NSString+MJExtension.m in Sources */,
+				41AF3ABE1E4B085400BFD4EB /* NSObject+MJClass.m in Sources */,
+				41AF3ABD1E4B085400BFD4EB /* MJPropertyType.m in Sources */,
+				41AF3A471E4AFE0C00BFD4EB /* AFHTTPRequestOperationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AF39FF1E4AE62600BFD4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AF3A081E4AE62600BFD4EB /* ReactiveCocoa__MVVMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AF3A0A1E4AE62600BFD4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AF3A131E4AE62600BFD4EB /* ReactiveCocoa__MVVMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41AF3A051E4AE62600BFD4EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AF39E91E4AE62600BFD4EB /* ReactiveCocoa&&MVVM */;
+			targetProxy = 41AF3A041E4AE62600BFD4EB /* PBXContainerItemProxy */;
+		};
+		41AF3A101E4AE62600BFD4EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AF39E91E4AE62600BFD4EB /* ReactiveCocoa&&MVVM */;
+			targetProxy = 41AF3A0F1E4AE62600BFD4EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41AF39F61E4AE62600BFD4EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41AF39F71E4AE62600BFD4EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41AF39FB1E4AE62600BFD4EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41AF39FC1E4AE62600BFD4EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41AF3A151E4AE62600BFD4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41AF3A161E4AE62600BFD4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41AF3A181E4AE62600BFD4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732266769921342ABEFD6D1F /* Pods-ReactiveCocoa&&MVVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ReactiveCocoa&&MVVM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yingegou.ReactiveCocoa--MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41AF3A191E4AE62600BFD4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15EEB5A52A1DC6F6F4B3479C /* Pods-ReactiveCocoa&&MVVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ReactiveCocoa&&MVVM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yingegou.ReactiveCocoa--MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41AF3A1B1E4AE62600BFD4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ReactiveCocoa&&MVVMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yingegou.ReactiveCocoa--MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveCocoa&&MVVM.app/ReactiveCocoa&&MVVM";
+			};
+			name = Debug;
+		};
+		41AF3A1C1E4AE62600BFD4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ReactiveCocoa&&MVVMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yingegou.ReactiveCocoa--MVVMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveCocoa&&MVVM.app/ReactiveCocoa&&MVVM";
+			};
+			name = Release;
+		};
+		41AF3A1E1E4AE62600BFD4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ReactiveCocoa&&MVVMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yingegou.ReactiveCocoa--MVVMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ReactiveCocoa&&MVVM";
+			};
+			name = Debug;
+		};
+		41AF3A1F1E4AE62600BFD4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ReactiveCocoa&&MVVMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yingegou.ReactiveCocoa--MVVMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ReactiveCocoa&&MVVM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41AF39E51E4AE62600BFD4EB /* Build configuration list for PBXProject "ReactiveCocoa&&MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AF3A151E4AE62600BFD4EB /* Debug */,
+				41AF3A161E4AE62600BFD4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AF3A171E4AE62600BFD4EB /* Build configuration list for PBXNativeTarget "ReactiveCocoa&&MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AF3A181E4AE62600BFD4EB /* Debug */,
+				41AF3A191E4AE62600BFD4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AF3A1A1E4AE62600BFD4EB /* Build configuration list for PBXNativeTarget "ReactiveCocoa&&MVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AF3A1B1E4AE62600BFD4EB /* Debug */,
+				41AF3A1C1E4AE62600BFD4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AF3A1D1E4AE62600BFD4EB /* Build configuration list for PBXNativeTarget "ReactiveCocoa&&MVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AF3A1E1E4AE62600BFD4EB /* Debug */,
+				41AF3A1F1E4AE62600BFD4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41AF39E21E4AE62600BFD4EB /* Project object */;
+}
